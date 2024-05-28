@@ -29,7 +29,7 @@ RUN apt-get update && \
 
 RUN mkdir /src
 WORKDIR /src
-COPY . .
+COPY ./cvs2svn-2.5/* .
 RUN ${PYTHON} ./setup.py install
 
 # The CVS repository can be mounted here:
