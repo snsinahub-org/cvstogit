@@ -1,0 +1,11 @@
+# Files that git should ignore in any directory:
+*.pyc
+*.pyo
+val-tags
+
+# Ignores in the project root:
+/cvs2git-tmp
+/cvs2hg-tmp
+/cvs2svn-tmp
+/*.tar.gz
+/svntest
